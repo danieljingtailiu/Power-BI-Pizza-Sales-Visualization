@@ -16,14 +16,14 @@ This project is a Power BI dashboard that provides a comprehensive analysis of p
 - **Power BI Desktop**: Used for creating the interactive report.
 - **Git**: For version control and collaboration (optional).
 
-### Data Requirements
+### Data fields
 - Transaction data with fields such as `OrderID`, `PizzaType`, `Quantity`, `Price`, and `Date`.
 - Customer information including `CustomerID`, `Location`, and `Age`.
 - Store and region details for geographic analysis.
 
 ### SQL Database Setup
 1. Create an MS SQL database to store the raw data.
-2. Import data into SQL tables using the provided `.csv` files (if applicable).
+2. Import data into SQL tables using the provided `.csv` files
 3. Use SQL queries to clean, transform, and aggregate data as needed. Sample steps might include:
    - Data normalization (e.g., breaking down complex columns into separate tables).
    - Calculating new metrics such as `TotalSales` and `Profit`.
@@ -55,3 +55,9 @@ The final Power BI report includes the following outputs:
 6. Use slicers and filters to drill down into specific categories and time periods.
 
 ## Project Structure
+Pizza Sales Report/ │ README.md # Project documentation │ Pizza Sales Report.pbix # Power BI report file │ Data_Preprocessing.sql # SQL scripts for data processing and transformation │ Sales Overview Screenshot.png # Placeholder for screenshot │ Regional Sales Screenshot.png # Placeholder for screenshot └───Data └─── RawData.csv # Source data used in the report
+
+## Future Enhancements
+- Include more detailed customer segmentation analysis.
+- Add predictive modeling to forecast future sales.
+- Implement a profitability dashboard to track margins by pizza type.

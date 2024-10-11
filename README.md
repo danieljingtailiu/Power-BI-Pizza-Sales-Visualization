@@ -32,7 +32,11 @@ This project is a Power BI dashboard that provides a comprehensive analysis of p
 ### Power BI Setup
 1. Connect Power BI to the MS SQL database using the appropriate credentials.
 2. Import the necessary tables and views into the Power BI environment.
-3. Use relationships and data modeling to link tables and create a unified data model.
+
+## Output
+The final Power BI report includes the following outputs:
+![Pizza_Home](https://github.com/user-attachments/assets/2f03c38e-c4c9-454c-b3ad-b9d104f311ae)
+![Pizza_Sellers](https://github.com/user-attachments/assets/98300dd1-0818-48d3-810e-5ca8cd498bb9)
 
 ## Features
 - **Sales Performance Overview**: Key metrics such as Total Sales, Average Order Value, and Profit Margin.
